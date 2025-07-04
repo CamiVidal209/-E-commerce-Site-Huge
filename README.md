@@ -1,4 +1,4 @@
-# Monthly Health Checking
+#  E-commerce Site — Cypress Approach
 The document outlines an "Automation challenge activity" for QAs at Huge, aiming to enhance their automation skills. The objective is to equip QAs to effectively contribute to projects by resolving a practical automation testing challenge. This is a mandatory activity for all QAs at Huge and is designed to be a realistic QA scenario emphasizing critical thinking, automation scripting, research, and ownership.
 ## Pre-requisites
 - Git latest [version](https://git-scm.com/download/mac) 
@@ -13,7 +13,7 @@ Verify if once a Java extension pack was installed the following also was instal
 - Project Manager for Java
 - Maven for Java
 - Test Runner for Java
-<img width="1322" alt="image" src="https://github.hugeinc.com/storage/user/577/files/7c4a0e65-38de-44af-a7d4-db32e89317b6">
+
 
 ## Installation
 Create a folder in your local and open the console in that location and run the command
@@ -22,7 +22,7 @@ git init
 ```
 then Clone the project from repository 
  ```sh
-git clone https://github.hugeinc.com/OLATech/stla-efp-screenshot-builder.git
+git clone [https://github.hugeinc.com/OLATech/stla-efp-screenshot-builder.git]
 ```
 
 move to the folder
