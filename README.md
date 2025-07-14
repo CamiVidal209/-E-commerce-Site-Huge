@@ -1,5 +1,5 @@
 #  E-commerce Site — Cypress Approach
-The document outlines an "Automation challenge activity" for QAs at Huge, aiming to enhance their automation skills. The objective is to equip QAs to effectively contribute to projects by resolving a practical automation testing challenge. This is a mandatory activity for all QAs at Huge and is designed to be a realistic QA scenario emphasizing critical thinking, automation scripting, research, and ownership.
+The document outlines an "Automation challenge activity". The objective is to equip QAs to effectively contribute to projects by resolving a practical automation testing challenge. This is a mandatory activity for all QAs at Huge and is designed to be a realistic QA scenario emphasizing critical thinking, automation scripting, research, and ownership. Site: https://www.laboratoriodetesting.com. 
 
 ## Setup Requirements
 
