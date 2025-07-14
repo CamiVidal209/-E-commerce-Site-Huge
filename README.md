@@ -21,7 +21,7 @@ git --version
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/ClaraERozo/automation-challenge.git
+git clone https://github.com/CamiVidal209/-E-commerce-Site-Huge.git
 cd automation-challenge
 ```
 
