@@ -1,0 +1,23 @@
+{
+  "name": "-e-commerce-site-huge",
+  "version": "1.0.0",
+  "description": "The document outlines an \"Automation challenge activity\". The objective is to equip QAs to effectively contribute to projects by resolving a practical automation testing challenge. This is a mandatory activity for all QAs at Huge and is designed to be a realistic QA scenario emphasizing critical thinking, automation scripting, research, and ownership. Site: https://www.laboratoriodetesting.com.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiVidal209/-E-commerce-Site-Huge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamiVidal209/-E-commerce-Site-Huge/issues"
+  },
+  "homepage": "https://github.com/CamiVidal209/-E-commerce-Site-Huge#readme",
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  }
+}

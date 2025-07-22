@@ -1,14 +1,18 @@
-#  E-commerce Site — Cypress Approach
-The document outlines an "Automation challenge activity". The objective is to equip QAs to effectively contribute to projects by resolving a practical automation testing challenge. This is a mandatory activity for all QAs at Huge and is designed to be a realistic QA scenario emphasizing critical thinking, automation scripting, research, and ownership. Site: https://www.laboratoriodetesting.com. 
+# 🛒 E-commerce Site — Cypress Automation
 
-## Setup Requirements
+This repository contains the solution to a QA automation challenge based on a real e-commerce website:  
+🔗 [https://www.laboratoriodetesting.com](https://www.laboratoriodetesting.com)
 
-Before getting started, make sure you have the following installed on your machine:
+---
 
-- [Node.js (recommended version: 18 or higher)](https://nodejs.org/)
+## 🧰 Setup Requirements
+
+Before getting started, make sure the following tools are installed on your machine:
+
+- [Node.js (version 18 or higher recommended)](https://nodejs.org/)
 - [Git](https://git-scm.com/)
 
-You can verify your installation with:
+You can verify the installation by running:
 
 ```bash
 node -v
@@ -16,16 +20,18 @@ npm -v
 git --version
 ```
 
-##  Installation
+---
+
+## 📦 Project Installation
 
 1. Clone this repository:
 
 ```bash
 git clone https://github.com/CamiVidal209/-E-commerce-Site-Huge.git
-cd automation-challenge
+cd -E-commerce-Site-Huge
 ```
 
-2. Install the project dependencies:
+2. Install project dependencies:
 
 ```bash
 npm install
@@ -37,31 +43,49 @@ npm install
 npx cypress open
 ```
 
-##  Running the Tests
+---
 
-- **Interactive mode (recommended):**
+## 🧪 Running the Tests
+
+### ▶️ Interactive mode (recommended)
+
+Open Cypress Test Runner:
 
 ```bash
 npx cypress open
 ```
 
-- **Headless mode:**
+### ⚙️ Headless mode
+
+Run tests directly in the terminal:
 
 ```bash
 npx cypress run
 ```
+
+---
 
 ## 📁 Project Structure
 
 ```
 /cypress
   /e2e
-    - scenario_1.cy.js
-    - scenario_2.cy.js
+    /Laboratorio                      
+      - añadir-producto-carrito.cy.js     
+      - limpiar-carrito.cy.js             
+      - login.cy.js                      
+      - recuperar-negative.cy.js          
+      - recuperar-positive.cy.js          
+  /fixtures                             
+  /screenshots                          
   /support
-    - e2e.js
-cypress.config.js
-package.json
-README.md
+    - commands.js                       
+    - e2e.js                            
+    - elements.js                       
+.gitignore                              
+Automation Strategy.pdf                 
+cypress.config.js                       
+package.json                            
+package-lock.json                       
+README.md                               
 ```
-
