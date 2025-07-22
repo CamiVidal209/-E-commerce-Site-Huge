@@ -1,18 +1,18 @@
 # 🛒 E-commerce Site — Cypress Automation
 
-Este repositorio contiene la solución a un reto de automatización QA basado en un sitio de e-commerce real:  
+This repository contains the solution to a QA automation challenge based on a real e-commerce website:  
 🔗 [https://www.laboratoriodetesting.com](https://www.laboratoriodetesting.com)
 
 ---
 
-## 🧰 Requisitos de configuración
+## 🧰 Setup Requirements
 
-Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas en tu máquina:
+Before getting started, make sure the following tools are installed on your machine:
 
-- [Node.js (versión 18 o superior)](https://nodejs.org/)
+- [Node.js (version 18 or higher recommended)](https://nodejs.org/)
 - [Git](https://git-scm.com/)
 
-Puedes verificar las versiones instaladas con:
+You can verify the installation by running:
 
 ```bash
 node -v
@@ -22,22 +22,22 @@ git --version
 
 ---
 
-## 📦 Instalación del proyecto
+## 📦 Project Installation
 
-1. Clona este repositorio:
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/CamiVidal209/-E-commerce-Site-Huge.git
-cd -Ecommerce-Site-Huge
+cd -E-commerce-Site-Huge
 ```
 
-2. Instala las dependencias:
+2. Install project dependencies:
 
 ```bash
 npm install
 ```
 
-3. Abre Cypress en modo interactivo:
+3. Launch Cypress in interactive mode:
 
 ```bash
 npx cypress open
@@ -45,19 +45,19 @@ npx cypress open
 
 ---
 
-## 🧪 Cómo ejecutar las pruebas
+## 🧪 Running the Tests
 
-### ▶️ Modo interactivo (recomendado)
+### ▶️ Interactive mode (recommended)
 
-Abre la interfaz de Cypress y ejecuta los test desde allí:
+Open Cypress Test Runner:
 
 ```bash
 npx cypress open
 ```
 
-### ⚙️ Modo headless
+### ⚙️ Headless mode
 
-Ejecuta todos los tests directamente desde la terminal:
+Run tests directly in the terminal:
 
 ```bash
 npx cypress run
@@ -65,19 +65,27 @@ npx cypress run
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
 ```
 /cypress
-  /e2e               → Escenarios de prueba E2E
-    - añadir-carrito.cy.js
-    - login.cy.js
-    - recuperar-password.cy.js
+  /e2e
+    /Laboratorio                      
+      - añadir-producto-carrito.cy.js     
+      - limpiar-carrito.cy.js             
+      - login.cy.js                      
+      - recuperar-negative.cy.js          
+      - recuperar-positive.cy.js          
+  /fixtures                             
+  /screenshots                          
   /support
-    - e2e.js         → Soporte y hooks globales
-    - commands.js    → Comandos personalizados
-    - elements.js    → Selectores reutilizables
-cypress.config.js     → Configuración principal de Cypress
-package.json          → Dependencias y scripts del proyecto
-README.md             → Este archivo
+    - commands.js                       
+    - e2e.js                            
+    - elements.js                       
+.gitignore                              
+Automation Strategy.pdf                 
+cypress.config.js                       
+package.json                            
+package-lock.json                       
+README.md                               
 ```
