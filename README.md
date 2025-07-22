@@ -1,14 +1,18 @@
-#  E-commerce Site — Cypress Approach
-The document outlines an "Automation challenge activity". The objective is to equip QAs to effectively contribute to projects by resolving a practical automation testing challenge. This is a mandatory activity for all QAs at Huge and is designed to be a realistic QA scenario emphasizing critical thinking, automation scripting, research, and ownership. Site: https://www.laboratoriodetesting.com. 
+# 🛒 E-commerce Site — Cypress Automation
 
-## Setup Requirements
+Este repositorio contiene la solución a un reto de automatización QA basado en un sitio de e-commerce real:  
+🔗 [https://www.laboratoriodetesting.com](https://www.laboratoriodetesting.com)
 
-Before getting started, make sure you have the following installed on your machine:
+---
 
-- [Node.js (recommended version: 18 or higher)](https://nodejs.org/)
+## 🧰 Requisitos de configuración
+
+Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas en tu máquina:
+
+- [Node.js (versión 18 o superior)](https://nodejs.org/)
 - [Git](https://git-scm.com/)
 
-You can verify your installation with:
+Puedes verificar las versiones instaladas con:
 
 ```bash
 node -v
@@ -16,52 +20,64 @@ npm -v
 git --version
 ```
 
-##  Installation
+---
 
-1. Clone this repository:
+## 📦 Instalación del proyecto
+
+1. Clona este repositorio:
 
 ```bash
 git clone https://github.com/CamiVidal209/-E-commerce-Site-Huge.git
-cd automation-challenge
+cd -Ecommerce-Site-Huge
 ```
 
-2. Install the project dependencies:
+2. Instala las dependencias:
 
 ```bash
 npm install
 ```
 
-3. Launch Cypress in interactive mode:
+3. Abre Cypress en modo interactivo:
 
 ```bash
 npx cypress open
 ```
 
-##  Running the Tests
+---
 
-- **Interactive mode (recommended):**
+## 🧪 Cómo ejecutar las pruebas
+
+### ▶️ Modo interactivo (recomendado)
+
+Abre la interfaz de Cypress y ejecuta los test desde allí:
 
 ```bash
 npx cypress open
 ```
 
-- **Headless mode:**
+### ⚙️ Modo headless
+
+Ejecuta todos los tests directamente desde la terminal:
 
 ```bash
 npx cypress run
 ```
 
-## 📁 Project Structure
+---
+
+## 📁 Estructura del proyecto
 
 ```
 /cypress
-  /e2e
-    - scenario_1.cy.js
-    - scenario_2.cy.js
+  /e2e               → Escenarios de prueba E2E
+    - añadir-carrito.cy.js
+    - login.cy.js
+    - recuperar-password.cy.js
   /support
-    - e2e.js
-cypress.config.js
-package.json
-README.md
+    - e2e.js         → Soporte y hooks globales
+    - commands.js    → Comandos personalizados
+    - elements.js    → Selectores reutilizables
+cypress.config.js     → Configuración principal de Cypress
+package.json          → Dependencias y scripts del proyecto
+README.md             → Este archivo
 ```
-
