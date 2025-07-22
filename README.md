@@ -88,4 +88,8 @@ cypress.config.js
 package.json                            
 package-lock.json                       
 README.md                               
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 172f7a59c01addce51df6a646d7154cadd8f8495
